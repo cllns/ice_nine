@@ -9,6 +9,8 @@ group :development, :test do
   gem 'mutant',       github: 'mbj/mutant'
   gem 'mutant-rspec', github: 'mbj/mutant'
 
+  gem 'bigdecimal'
+
   source 'https://oss:sxCL1o1navkPi2XnGB5WYBrhpY9iKIPL@gem.mutant.dev' do
     gem 'mutant-license'
   end
