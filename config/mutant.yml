@@ -10,3 +10,4 @@ mutation:
   timeout: 1.0
 coverage_criteria:
   timeout: true
+usage: opensource
