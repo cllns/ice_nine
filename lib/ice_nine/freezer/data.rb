@@ -19,7 +19,6 @@ module IceNine
       #
       # @return [Data]
       def self.guarded_deep_freeze(data, recursion_guard)
-        super
         data.to_h.each_value do |value|
           Freezer.guarded_deep_freeze(value, recursion_guard)
         end
