@@ -6,6 +6,7 @@ require 'ice_nine/freezer'
 require 'ice_nine/freezer/object'
 require 'ice_nine/freezer/no_freeze'
 require 'ice_nine/freezer/array'
+require 'ice_nine/freezer/data'
 
 require 'ice_nine/freezer/false_class'
 require 'ice_nine/freezer/hash'
